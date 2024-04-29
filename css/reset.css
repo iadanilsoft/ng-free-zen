@@ -1,35 +1,45 @@
-/* reset.css */
 * {
-  margin: 0; /* Убирает отступы по умолчанию */
-  padding: 0; /* Устанавливает внутренние отступы в ноль */
-  border: 0; /* Убирает границы */
-  font-size: 100%; /* Устанавливает размер шрифта на 100% базового размера */
-  font: inherit; /* Наследует свойства шрифта от родительского элемента */
-  vertical-align: baseline; /* Выравнивает элементы по базовой линии */
+  margin: 0;
+  padding: 0;
 }
 
-/* Переопределение стилей для ссылок */
+ul,
+ol {
+  list-style: none;
+}
+
 a {
-  color: inherit; /* наследовать цвет текста */
-  text-decoration: none; /* убрать подчеркивание */
+  color: inherit;
+  text-decoration: none;
 }
 
-select,
-button,
-img,
+button {
+  color: inherit;
+  font-size: inherit;
+  background: none;
+  border: none;
+}
+
+select {
+  border: none;
+  appearance: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  font-style: inherit;
+}
+
+img {
+  width: 100%;
+}
+
 input {
-  margin: 0; /* Убирает отступы */
-  padding: 0; /* Устанавливает внутренние отступы в ноль */
-  border: none; /* Убирает границы */
-  outline: none; /* Убирает обводку при фокусе */
-  background: none; /* Убирает задний фон */
-  font: inherit; /* Наследует свойства шрифта от родительского элемента */
-  vertical-align: middle; /* Выравнивает элементы по вертикали посередине */
-  cursor: pointer; /* Меняет курсор при наведении на элемент */
-  box-sizing: border-box; /* Учитывает границу и внутренние отступы в общей ширине элемента */
-  appearance: none; /* Убирает стандартные стили элемента */
-  -webkit-appearance: none; /* Для Safari */
-  -moz-appearance: none; /* Для Firefox */
-  -ms-appearance: none; /* Для IE */
-  -o-appearance: none; /* Для Opera */
+  border: none;
+  appearance: none;
 }
