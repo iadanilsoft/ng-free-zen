@@ -2,7 +2,10 @@
   padding: 30px 15px;
 }
 
-/* .care__wrapper {} */
+.care__wrapper {
+  display: flex;
+  flex-direction: column;
+}
 
 /* .care__text-block {} */
 
