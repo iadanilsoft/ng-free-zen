@@ -26,3 +26,9 @@
   border-radius: 20px;
   overflow: hidden;
 }
+
+.warranty__image-block img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+}
