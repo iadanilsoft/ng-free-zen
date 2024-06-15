@@ -1,4 +1,5 @@
 .form {
+<<<<<<< HEAD
   display: grid;
   gap: 15px;
 }
@@ -75,3 +76,15 @@
   border: 1px solid #222;
   border-radius: 30px;
 }
+=======
+  display: none;
+}
+
+/* .form__input {} */
+
+/* .form__select {} */
+
+/* .form__checkbox {} */
+
+/* .form__submit {} */
+>>>>>>> d47095d1628ec8c5e6f7fc924c6e1662720318e3
