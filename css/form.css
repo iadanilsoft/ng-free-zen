@@ -66,6 +66,7 @@
 .form__checkbox a {
   text-decoration: underline;
   text-decoration-thickness: 0.5px;
+  text-underline-offset: 1.5px;
 }
 
 .form__submit {
