@@ -57,7 +57,8 @@
 }
 
 .header__lang select {
-  padding-left: 8px;
+  padding-left: 6px;
+  font-size: 14px;
   height: 100%;
   width: 100%;
 }
