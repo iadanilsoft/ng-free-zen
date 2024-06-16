@@ -17,7 +17,10 @@
 
 /* .footer__info {} */
 
-/* .footer__logo {} */
+.footer__logo img {
+  width: 216px;
+  height: 23px;
+}
 
 .footer__copy {
   font-size: 12px;
