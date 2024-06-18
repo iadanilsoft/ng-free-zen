@@ -49,24 +49,28 @@
 }
 
 .form__checkbox {
-  position: relative;
-  top: 0;
-  right: -20px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
-.form__checkbox input[type="checkbox"] {
+.form__checkbox input::before {
+  content: "";
   display: block;
   width: 14px;
   height: 14px;
-  position: absolute;
-  left: -20px;
-  top: 4px;
+  border: 1px solid #aaa;
+  border-radius: 2px;
+}
+
+.form__checkbox input:checked::before {
+  background-image: url("/assets/icons/check.svg");
+  background-position: center;
+  border: 1px solid #00a1ff;
 }
 
 .form__checkbox a {
   text-decoration: underline;
-  text-decoration-thickness: 0.5px;
-  text-underline-offset: 1.5px;
 }
 
 .form__submit {
