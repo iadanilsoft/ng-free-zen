@@ -1,13 +1,11 @@
 /* clients */
+/* .clients__wrapper {} */
 .clients {
   padding: 30px 15px;
-}
 
-.clients__wrapper {
-}
-
-.clients__brands {
-  display: grid;
-  gap: 30px;
-  grid-template-columns: repeat(2, 1fr);
+  &__brands {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
