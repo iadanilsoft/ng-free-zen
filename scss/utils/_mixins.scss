@@ -1,3 +1,4 @@
+/* mixins */
 @mixin font_face(
   $fontPath, 
   $fileName, 
@@ -13,4 +14,20 @@
     font-style: normal;
     font-display: swap;
   }
+}
+
+
+@mixin flex_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex (
+  $align-items,
+  $justify-content,
+) {
+  display: flex;
+  align-items: $align-items;
+  justify-content: $justify-content;
 }
